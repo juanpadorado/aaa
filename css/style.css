@@ -963,7 +963,7 @@ a.expand {
 /* =========================== VIDEO SECTION ============================== */
 
 .demo-video{
-	background:url(../images/bg/video-bg.jpg) no-repeat 100% fixed;
+	background:url(../images/video-bg.jpg) no-repeat 100% fixed;
 	position: inherit;
 	background-size:cover;
 	color:#fff;
@@ -1108,7 +1108,7 @@ bg-text {
 
 /* =========================== TEAM SECTION ============================== */
 .team{
-	background:url(../images/bg/additional-features-bg.jpg) no-repeat 100% fixed;
+	background:url(../images/additional-features-bg.jpg) no-repeat 100% fixed;
 	position: inherit;
 	background-size:cover;
 	position:relative;
