@@ -604,6 +604,7 @@ a.expand {
 	font-size:16px;
 	color:#ffffff;
 	text-transform:uppercase;
+	margin: 2em 0 2em 0;
 }
 .features-list {
 	padding:0px; 
@@ -671,8 +672,13 @@ a.expand {
 }
 .app-image{
 	text-align:center;
-	margin:0px auto;
+	margin: 0px auto;
 	z-index:1;
+	float: none;
+}
+.image{
+	border-radius: 50%;
+	box-shadow: rgb(91, 139, 205) 1px 1px 60px;
 }
 
 
@@ -2942,7 +2948,6 @@ blockquote{
 }
 .triangle-left-light {
 	width: 0; height: 0; 
-	position:absolute;
 	left:0;
 	bottom: 0px;
 	border-right: 700px solid transparent;
