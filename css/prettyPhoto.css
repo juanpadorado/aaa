@@ -726,9 +726,13 @@ a.pp_arrow_previous,a.pp_arrow_next {
 .pp_gallery {
     display: none;
     left: 50%;
-    margin-top: -50px;
+    margin-top: 9px;
     position: absolute;
     z-index: 10000;
+}
+
+.gallery_1{
+    width: 175px !important;
 }
 .pp_gallery div {
     float: left;

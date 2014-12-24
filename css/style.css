@@ -73,6 +73,7 @@ img {
 	padding-left:15px;
 	padding-right:15px;
 	width:100%;
+	padding-bottom: 10px;
 }
 .no-padding {
 	padding: 0;
@@ -432,6 +433,27 @@ a.expand {
 .top-navbar i{
 	font-size:20px;
 }
+
+/* Stilo de innovacion*/
+
+.innovacion li{
+	display: inline;
+	background-color: #00507b;
+	text-decoration: none;
+}
+
+
+.innovacion_proyect{
+	display: table-cell;
+	width: 300px;
+	height: 300px;
+}
+
+.lgray-shape {
+border-bottom: 70px solid #f2f6fa;
+}
+
+
 /* =========================== SLIDER SECTION ============================== */
 
 /* ------------- Background Slider ------------- */
@@ -575,6 +597,18 @@ a.expand {
 	background-color:#fff;
 }
 
+.modi_1{
+	font-family: 'Roboto',sans-serif;
+ 	font-weight:500;
+ 	line-height:1.1;
+ 	color:#2c3e50;
+}
+.modi_scroll{
+	overflow-y: scroll;
+	height: 300px;
+	width: auto;
+}
+
 /* =========================== WELCOME SECTION ============================== */
 .welcome-section{
 	position:relative;
@@ -604,7 +638,6 @@ a.expand {
 	font-size:16px;
 	color:#ffffff;
 	text-transform:uppercase;
-	margin: 2em 0 2em 0;
 }
 .features-list {
 	padding:0px; 
@@ -672,13 +705,8 @@ a.expand {
 }
 .app-image{
 	text-align:center;
-	margin: 0px auto;
+	margin:0px auto;
 	z-index:1;
-	float: none;
-}
-.image{
-	border-radius: 50%;
-	box-shadow: rgb(91, 139, 205) 1px 1px 60px;
 }
 
 
@@ -885,7 +913,6 @@ a.expand {
 
 .screenshots-inner{
 	padding-top: 60px;
-	padding-bottom: 90px;
 }
 .screen-img{
 	padding:25px;
@@ -980,7 +1007,7 @@ a.expand {
 
 .container.demo-video-inner {
     padding-top: 60px;
-	padding-bottom:0px;	
+	padding-bottom:40px;	
 }
 
 .demo-video .title {
@@ -2948,6 +2975,7 @@ blockquote{
 }
 .triangle-left-light {
 	width: 0; height: 0; 
+	position:absolute;
 	left:0;
 	bottom: 0px;
 	border-right: 700px solid transparent;
@@ -2958,9 +2986,6 @@ blockquote{
 }
 .white-shape{
 	border-bottom: 70px solid #ffffff;
-}
-.lgray-shape{
-	border-bottom: 70px solid #f2f6fa;
 }
 .dgray-shape{
 	border-bottom: 70px solid #2c3e50;

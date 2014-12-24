@@ -1,5 +1,7 @@
 (function($) {
 	$.prettyPhoto = {version: '3.1.5'};
+
+
 	
 	$.fn.prettyPhoto = function(pp_settings) {
 		pp_settings = jQuery.extend({
@@ -42,19 +44,11 @@
 									<div class="pp_loaderIcon"></div> \
 									<div class="pp_fade"> \
 										<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
-										<div class="pp_hoverContainer"> \
-											<a class="pp_next" href="#">next</a> \
-											<a class="pp_previous" href="#">previous</a> \
-										</div> \
 										<div id="pp_full_res"></div> \
 										<div class="pp_details"> \
 											<div class="pp_nav"> \
-												<a href="#" class="pp_arrow_previous">Previous</a> \
-												<p class="currentTextHolder">0/0</p> \
-												<a href="#" class="pp_arrow_next">Next</a> \
+												<p></p> \
 											</div> \
-											<p class="pp_description"></p> \
-											<div class="pp_social">{pp_social}</div> \
 											<a class="pp_close" href="#">Close</a> \
 										</div> \
 									</div> \
@@ -71,7 +65,7 @@
 					<div class="pp_overlay"></div>',
 			gallery_markup: '<div class="pp_gallery"> \
 								<a href="#" class="pp_arrow_previous">Previous</a> \
-								<div> \
+								<div class="gallery_1"> \
 									<ul> \
 										{gallery} \
 									</ul> \
@@ -110,11 +104,10 @@
 					if($pp_pic_holder.is(':visible')){
 						switch(e.keyCode){
 							case 37:
-								$.prettyPhoto.changePage('previous');
+
 								e.preventDefault();
 								break;
 							case 39:
-								$.prettyPhoto.changePage('next');
 								e.preventDefault();
 								break;
 							case 27:
@@ -192,10 +185,7 @@
 				setHashtag();
 		
 			// Rebuild Facebook Like Button with updated href
-			if(settings.social_tools){
-				facebook_like_link = settings.social_tools.replace('{location_href}', encodeURIComponent(location.href)); 
-				$pp_pic_holder.find('.pp_social').html(facebook_like_link);
-			}
+			
 			
 			// Fade the content in
 			if($ppt.is(':hidden')) $ppt.css('opacity',0).show();
@@ -742,8 +732,6 @@
 			// Inject Social Tool markup into General markup
 			if(settings.social_tools)
 				facebook_like_link = settings.social_tools.replace('{location_href}', encodeURIComponent(location.href)); 
-
-			settings.markup = settings.markup.replace('{pp_social}',''); 
 			
 			$('body').append(settings.markup); // Inject the markup
 			
