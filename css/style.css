@@ -681,6 +681,12 @@ border-bottom: 70px solid #f2f6fa;
 	position:absolute;
 	top:10px;
 }
+
+.image{
+	border-radius: 50%;
+	box-shadow: rgb(91, 139, 205) 1px 1px 60px;
+ }
+
 .features-list  li:hover > i{	
 	border-top:1px solid #d9e2e9;
 	border-bottom:1px solid #d9e2e9;
@@ -707,6 +713,7 @@ border-bottom: 70px solid #f2f6fa;
 	text-align:center;
 	margin:0px auto;
 	z-index:1;
+	float: none;
 }
 
 
