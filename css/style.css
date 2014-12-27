@@ -1149,7 +1149,6 @@ bg-text {
 
 /* =========================== TEAM SECTION ============================== */
 .team{
-	background:url(../images/additional-features-bg.jpg) no-repeat 100% fixed;
 	position: inherit;
 	background-size:cover;
 	position:relative;
@@ -1159,7 +1158,7 @@ bg-text {
 	padding-bottom: 70px;	
 }
 .team .title{
-	color: #FFFFFF;
+	color: #2c3e50;
 }
 .team .team-box {
 	margin:20px 0px;
@@ -1649,6 +1648,7 @@ bg-text {
 .download-now{
 	background:#2c3e50;
 	position:relative;
+	padding-bottom: 30px;
 }
 .download-now .btn i{
 	font-size:30px;

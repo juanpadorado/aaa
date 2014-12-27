@@ -64,13 +64,13 @@
 					</div> \
 					<div class="pp_overlay"></div>',
 			gallery_markup: '<div class="pp_gallery"> \
-								<a href="#" class="pp_arrow_previous">Previous</a> \
+								<a href="#" class="pp_arrow_previous"></a> \
 								<div class="gallery_1"> \
 									<ul> \
 										{gallery} \
 									</ul> \
 								</div> \
-								<a href="#" class="pp_arrow_next">Next</a> \
+								<a href="#" class="pp_arrow_next"></a> \
 							</div>',
 			image_markup: '<img id="fullResImage" src="{path}" />',
 			flash_markup: '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="{width}" height="{height}"><param name="wmode" value="{wmode}" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="{path}" /><embed src="{path}" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="{width}" height="{height}" wmode="{wmode}"></embed></object>',
