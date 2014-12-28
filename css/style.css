@@ -450,7 +450,7 @@ a.expand {
 }
 
 .lgray-shape {
-border-bottom: 70px solid #f2f6fa;
+border-bottom: 70px solid #F4F5F7;
 }
 
 
@@ -1150,6 +1150,7 @@ bg-text {
 
 /* =========================== TEAM SECTION ============================== */
 .team{
+  
 	position: inherit;
 	background-size:cover;
 	position:relative;
@@ -1176,11 +1177,11 @@ bg-text {
 }
 .team .team-box-inner h3{
 	margin-top:15px;
-	color:#ffffff;
+	color:#2C3E50;
 }
 .team .team-box-inner p {
 	padding:5px 5px 7px 5px;
-	color:#ffffff;
+	color:#2C3E50;
 }
 
 .team .social-icon.top,
