@@ -711,9 +711,10 @@ border-bottom: 70px solid #f2f6fa;
 }
 .app-image{
 	text-align:center;
-	margin:0px auto;
+	margin:auto;
 	z-index:1;
 	float: none;
+	padding: 15px;
 }
 
 
