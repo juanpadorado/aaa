@@ -609,6 +609,15 @@ border-bottom: 70px solid #F4F5F7;
 	width: auto;
 }
 
+/*Creada por Mauricio Vallejo*/
+/* Para darle un pequeño estilo al contenedor de
+las caracteristicas de cada uno de los servicios, 
+para que no quede totalmente centrado y quede feo.*/
+.caractConten{
+	text-align: left;
+	padding-left: 46px;
+}
+
 /* =========================== WELCOME SECTION ============================== */
 .welcome-section{
 	position:relative;
