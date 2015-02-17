@@ -778,6 +778,10 @@ para que no quede totalmente centrado y quede feo.*/
 	width: 548px;
 }
 
+.text-justify{
+	text-align: justify;
+}
+
 
 /* =========================== WELCOME SECTION ============================== */
 .welcome-section{
